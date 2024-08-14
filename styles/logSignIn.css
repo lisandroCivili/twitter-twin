@@ -1,51 +1,66 @@
-#container h1{
-    font-family: "Roboto", sans-serif;
-    font-weight:900;
-    font-style: normal;
-    color: white;
+#container h1,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: white;
 }
-
+#signGoogle,
+#signApple {
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bi-google, .bi-apple{
+    color: black;
+}
 @media all and (max-width: 480px) {
-    .col{
-        padding: 0;
-    }
-    .row{
-        width: 100%;
-    }
-    #containerDiv{
-        padding: 16px; 
-    }
-    #container{
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .columnLogoX{
-        height:45px;
-        width: 65px;
-    }
-    .columnLogoX img{
-        height: 100%;
-    }
-    .columnTitle{
-        margin:40px 0 40px 0;
-    }
-    h1{
-        font-size: 40px;
-        line-height: 55px;
-    }
+  .col {
+    padding: 0;
   }
-  @media all and (min-width: 481px) and (max-width: 768px) {
-   
+  .row {
+    width: 100%;
   }
-  @media all and (min-width: 769px) and (max-width: 1024px) {
-    
+  #containerDiv {
+    padding: 16px;
   }
-  @media all and (min-width: 1025px) and (max-width: 19200px) {
-    
+  #container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  @media all and (min-width: 1201px){
-    
+  .columnLogoX {
+    height: 45px;
+    width: 65px;
   }
-  
+  .columnLogoX img {
+    height: 100%;
+  }
+  .columnTitle {
+    margin: 40px 0 40px 0;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 55px;
+    font-weight: 700;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 768px) {
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+}
+@media all and (min-width: 1025px) and (max-width: 19200px) {
+}
+@media all and (min-width: 1201px) {
+}
