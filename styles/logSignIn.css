@@ -1,23 +1,30 @@
 #container h1,
-h3 {
+h3, .oLetter, #termsAndPolicy, h4 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: white;
+  color: #ffffff;
 }
-#signGoogle,
-#signApple {
+#logGoogle,
+#logApple,
+#signIn,
+#logIn {
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
-  height: 38px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.bi-google, .bi-apple{
-    color: black;
+.bi-google,
+.bi-apple {
+  color: black;
 }
+.hrs{
+  width: 50%;
+}
+hr{
+  width: 100%;
+}
+
 @media all and (max-width: 480px) {
   .col {
     padding: 0;
@@ -54,6 +61,33 @@ h3 {
     font-size: 25px;
     line-height: 55px;
     font-weight: 700;
+  }
+  #logGoogle,
+  #logApple,
+  #signIn,
+  #logIn {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 10px;
+    justify-content: center;
+  }
+  #signIn{
+    background-color: #1DA1F2;
+  }
+  #termsAndPolicy{
+    font-size: 10px;
+    margin-top: 5px;
+    color: darkgrey;
+  }
+  h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+  #logIn{
+    margin-top: 10px;
+    color: #1DA1F2;
   }
 }
 @media all and (min-width: 481px) and (max-width: 768px) {

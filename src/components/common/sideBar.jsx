@@ -1,6 +1,6 @@
 import React from "react";
 
-const sideBar = () => {
+const SideBar = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   useEffect(() => {
@@ -25,4 +25,4 @@ const sideBar = () => {
   );
 };
 
-export default sideBar;
+export default SideBar;
