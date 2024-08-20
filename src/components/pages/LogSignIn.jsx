@@ -9,14 +9,14 @@ const LogSignIn = () => {
       <div id="containerDiv">
         <Container id="container" fluid>
           <Row>
-            <Col className="columnLogoX" lg={3}>
+            <Col className="columnLogoX"  lg={3}>
               <img srcSet={logoX} />
             </Col>
             <div id="titleAndButtons" className="d-flex flex-column">
               <Col id="title" lg={3}>
                 <h1>Lo que está pasando ahora</h1>
               </Col>
-              <Col className="columnTitle" lg={3}>
+              <Col className="columnTitle"  lg={3}>
                 <h3>Únete Hoy</h3>
                 <div className="d-grid gap-2">
                   <Button id="logGoogle" variant="light" size="lg">
